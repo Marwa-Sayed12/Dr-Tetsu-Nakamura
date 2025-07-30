@@ -1,0 +1,185 @@
+.gallery-section {
+  background-image:linear-gradient(rgba(2, 30, 46, 0.684),rgba(0, 0, 0, 0.914)),url(../images/par.png);
+    min-height: 86vh; 
+    overflow: visible;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 1rem 1rem;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(1, 32, 58);
+    overflow: hidden;
+  }
+  
+  .slider-wrapper {
+    position: relative;
+    width: 70vw;
+    height: 70vh;
+    margin: 0 auto;
+   
+  }
+  
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: 0;
+  }
+  
+  .slide.active {
+    opacity: 1;
+    z-index: 1;
+  }
+  
+  .slide img {
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius:   100px;
+
+  /* clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+  transition: clip-path 0.6s ease, opacity 0.6s ease;
+   */
+}
+  
+
+
+  .caption {
+    display: block;
+    position: relative;
+    text-align: start;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/mesh-30.png');
+    background-size: cover;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 0.4rem 2rem;
+      max-height: fit-content;
+      overflow-wrap: break-word;
+      overflow-y: auto; 
+      font-family: "Tajawal", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+    }
+    
+  
+
+  .nav-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2.7rem;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.658);
+    border: none;
+    padding: 0.5rem 1rem;
+    z-index: 3;
+    cursor: pointer;
+    border-radius: 8px;
+
+    transition: background 0.3s;
+  }
+  
+  .nav-arrow:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  .nav-arrow.left {
+    left: 1rem;
+  }
+  
+  .nav-arrow.right {
+    right: 1rem;
+  }
+  body[dir="ltr"] .caption{
+    font-family: "Tajawal", sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    text-align: left;
+  }
+  body[dir="ltr"] .section-title{
+
+    font-size: 2.7rem;
+  }
+
+
+
+  body[dir="rtl"] .section-title{
+      font-size: 2rem;
+  }
+  body[dir="rtl"] .caption{
+    font-size: 1.6rem;
+    text-align: right;
+  }
+  
+
+
+
+
+
+  /* ---------------------------------------------------------------------mmm */
+
+
+/*  Mobile (Phones): porta 480px */
+
+@media (max-width: 480px) {
+  .slider-wrapper {
+    width: 90vw;
+    height: 50vh;
+  }
+
+  .caption {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+}
+
+/*  Small Tablets: 481px – 767px  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .slider-wrapper {
+    width: 85vw;
+    height: 50vh;
+  }
+
+  .caption {
+    font-size: 1.1rem;
+  }
+}
+
+/*  Tablets: 768px – 1023px  */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .slider-wrapper {
+    width: 80vw;
+    height: 55vh;
+  }
+}
+
+/*  Small Laptops / Desktops: 1024px – 1439px  */
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .slider-wrapper {
+    width: 70vw;
+    height: 60vh;
+  }
+}
+
+/*  Large Desktops: 1440px and up  */
+
+@media (min-width: 1440px) {
+  .slider-wrapper {
+    width: 60vw;
+    height: 66vh;
+  }
+}

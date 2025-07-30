@@ -1,0 +1,214 @@
+{
+    "navbar": {
+      "logo": "Tribute",
+      "language": "Language"
+    },
+
+
+    
+    "hero":{
+      "name":"Tetsu Nakamura",
+      "date":"15 September 1946 – 4 December 2019",
+      "brief":"A Japanese physician and humanitarian who dedicated his life to rebuilding Afghan communities through healthcare, irrigation, and peace."
+    },
+
+    "sectionNav": {
+  "timeline": "Timeline",
+  "life": "Life & Work",
+  "impact": "Impact",
+  "gallery": "Gallery",
+  "projects": "Projects",
+  "honors": "Honors",
+  "quotes": "Quotes",
+  "videos": "Videos"
+},
+
+  "timeline": {
+  "title": "Tetsu Nakamura live Timeline",
+  "events": [
+    {
+      "date": "15 Sep 1946",
+      "title": "Birth",
+      "description": "Born in Fukuoka, Kyushu, Japan."
+    },
+    {
+      "date": "Oct 1978",
+      "title": "First Visit to Pakistan",
+      "description": "Served as expedition medic near Tirich Mir; treated villagers and refugees, sparking his life‑long mission."
+    },
+    {
+      "date": "Oct 1984",
+      "title": "Peshawar‑kai Founded",
+      "description": "Moved to Peshawar with family, opened Mission Hospital clinic for Afghan refugees (leprosy & TB)."
+    },
+    {
+      "date": "1991–1993",
+      "title": "Clinics in Afghanistan",
+      "description": "Established three rural clinics in Nangarhar; realised malnutrition & drought were root causes of disease."
+    },
+    {
+      "date": "2003–2019",
+      "title": "Marwarid Canal & 8 More",
+      "description": "Designed 25 km Marwarid Canal and eight others, greening 16,000 ha and reviving farming for 600,000 Afghans."
+    },
+    {
+      "date": "7 Oct 2019",
+      "title": "Honorary Afghan Citizen",
+      "description": "President Ashraf Ghani grants Nakamura Afghan citizenship for decades of humanitarian service."
+    },
+    {
+      "date": "4 Dec 2019",
+      "title": "Assassination in Jalalabad",
+      "description": "Shot en‑route to a canal site; Afghanistan declares a day of mourning, global tributes pour in."
+    }
+  ]
+},
+
+
+  "life": {
+    "title": "Life & Work",
+      "earlyTitle": "Early Life & Education",
+      "earlyDesc": "Born one year after the end of WWII (1945). His uncle was the novelist Ashihei Hino, a winner of a prestigious literary award, the Akutagawa Prize. His grandfather was Tamai Kingoro who had a coal cargo handling business in Kitakyusyu City - Fukuoka, Japan, and was the central character of one of Hino’s novels, “The Flowers and the Dragon.” Nakamura studied at Seinan Gakuin junior high school, Fukuoka high school and after graduating from Kyusyu University School of Medicine, he worked at the National Hizen Clinic (now called Hizen Psychiatric Center) in neighboring Saga prefecture. He also worked at hospitals based in Fukuoka. During this time, he joined a mountain climbing group that walked through the border of Afghanistan and Pakistan, the beginning of his affinity for these countries.",
+      "doctorTitle": "From Doctor to Humanitarian",
+      "doctorDesc": "He was appointed as a doctor for a Christian religious group attending to leprosy patients in Peshawar, northwest Pakistan. A year before, the NGO group Peshawar-Kai was founded to support Dr. Nakamura’s work. He recalls those days about the medical tools as follows; “one trolley car that falls down when we push, a few twisted tweezers and a stethoscope that injures you when put into the ear.” He even carried the patients on his back. Witnessing the suffering firsthand, he expanded his efforts to address water, food, and infrastructure, believing that health begins with access to basic needs.",
+      "pmsTitle": "Peace Japan Medical Services",
+      "pmsDesc": "As the head of Peace Japan Medical Services (PMS), also known as Peshawar-kai, Nakamura oversaw the building of clinics, mosques, and water infrastructure in Afghanistan and Pakistan. His team delivered aid during times of war and drought, including food convoys during the 2001 airstrikes.",
+      "canalTitle": "Turning Deserts into Farmland",
+      "canalDesc": " A devastating drought occurred in Afghanistan. Farmlands gradually turned into desert and the people abandoned their villages one after another. Children were the largest victims of hunger and thirst. “It is no longer a matter of healing diseases,” he declared. So convinced, he decided to start an irrigation project and began to dig wells. By 2006, the number of wells had grown to 1600. 2001. In response to extreme droughts, Dr. Nakamura led the creation of a 27-kilometer irrigation canal from the Kunar River, reviving Gamberi Desert into farmland and a vibrant green valley. His engineering work helped support over 650,000 people and turned the once-barren area into a source of life.",
+      "irrigationTitle": "Begins Construction of the Irrigation Canal",
+      "irrigationDesc": "As they continued to dig wells they were faced with the depletion of groundwater. Not being able to grow wheat due to the lack of water, people started to grow the poppy plant in order to obtain cash income. It is resistant to dry weather and is the main ingredient in heroin and opium. “There will be no restoration of Afghanistan without a recovery of farm villages,” he said. Realizing the limit of irrigation relying on groundwater, he started to build the irrigation canal.",
+      "marwaridTitle": "Completion of the Marwarid Irrigation Canal",
+      "marwaridDesc": "Construction for an irrigation canal named “Marwarid,” meaning pearl in Persian, was completed. Not only the desolated farmland but also places where it used to be desert were reborn into green lands. He also built a mosque and madrasa (an Islamic school), which are havens for the community’s soul. Besides Marwarid Irrigation Canal, he continued to provide intake canals here and there on people’s request.",
+      "honorTitle": "Honorary Citizenship & Legacy",
+      "honorDesc": " In October 2019, Afghan President Ashraf Ghani awarded Dr. Nakamura honorary Afghan citizenship. Japan also honored him with the Order of the Rising Sun. His legacy lives on in canals, hospitals, and the countless lives he improved through service and compassion. He was granted honorary citizenship by the government of Afghanistan. Due to the irrigation canal that he had constructed, 16,500 hectares of land were watered. It covers an area approximately half the size of Fukuoka city. It was the result of donations from all over Japan to Peshawar-kai and the effort of both the Afghan people and Japanese staff who supported the project.",
+      "deathTitle": "Final Days & Global Mourning",
+      "deathDesc": "On 4 December 2019, Dr. Nakamura and his team were assassinated in Jalalabad. His death shocked both Afghanistan and Japan. Kyushu University launched a project in his name, and his spirit lives on through students and humanitarian workers inspired by his selfless service."
+  },
+
+    "impact": {
+  "title": "Dr. Nakamura’s Lasting Impact",
+  "quote": "Over 30 years, Dr. Nakamura’s canal projects transformed the so‑called “valley of death” into a flourishing agricultural hub supporting 650,000 lives.",
+  "footer": "Explore his measurable impact below.",
+  "cards": {
+    "people": "People Helped",
+    "canals": "Irrigation Canals",
+    "farmland": "Farmland Revived",
+    "hospitals": "Hospitals Built",
+    "mosques": "Mosques Built",
+    "awards": "National Awards"
+  }
+},
+
+  "projects": {
+  "title": "Projects",
+  "farmTitle": "🌾 Farmland Revived",
+  "farmDesc": " Over 16,000 hectares of barren land were revived with water from Dr. Nakamura’s canal network. This transformed local economies and food supply across rural Afghanistan.The irrigation system reached even the most isolated areas, such as Goryak village, turning once-dry fields into fertile farmland. Despite repeated flash floods, PMS rebuilt intake systems and canals on both banks of the Kunar River, restoring life to areas abandoned by previous development efforts.",
+  "farmDesc1": " Fifteen years ago, this place was a barren desert — but today, it boasts agriculture in all four seasons. The lush greenery of this plain is the legacy of a man who once came to Afghanistan and stood shoulder to shoulder with its people, especially those in the eastern provinces.",
+  "farmDesc2": " He dug with his shovel to transform dry deserts into fertile farmland. His mission was to provide livelihoods and eradicate poverty. Nakamura first encountered the Afghan people during the war between the Mujahideen and the Soviet army. He served in the Peshawar refugee camps, treating Afghan refugees and war-displaced people, focusing mainly on patients with leprosy.",
+  "hospitalTitle": "🏥 Hospitals Built",
+  "hospitalDesc": "Two full-scale hospitals were constructed in underserved areas, offering modern care to thousands of patients monthly.These facilities addressed the lack of basic healthcare infrastructure and provided vital services to communities affected by poverty and conflict. The work complemented existing clinics run by organizations like JVC, and expanded access to professional medical care.",
+  "mosqueTitle": "🕌 Mosques & Community Spaces",
+  "mosqueDesc": "These were not just places of worship but also safe havens, offering dignity, unity, and peace in war-torn regions. Built alongside other infrastructure, they helped preserve cultural traditions and encouraged communal bonds. In remote villages like Goryak, such places remained central to daily life and spiritual well-being.",
+"olomTitle": "Neemania Daralolom",
+  "olomDesc": "Founded in 1370 (1991), Neemania Daralolom is a prominent Islamic educational center offering comprehensive religious, spiritual, and cultural teachings. It serves as a trusted hub for traditional Islamic knowledge in the region.",
+  "peopleTitle": "👥 People Helped",
+  "peopleDesc": "Over 650,000 individuals benefitted from Dr. Nakamura’s irrigation and healthcare efforts, rebuilding lives with access to water, food, and health services.These programs reached marginalized communities forgotten by development programs, bringing a sense of hope and dignity to rural families. In places left behind by modernization, PMS brought back the spirit of self-sufficiency and faith.",
+  "canalTitle": "🚜 Canal Network",
+  "canalDesc": " A 27 km canal and its branches brought new life to the desert, enabling farming, reforestation, and long-term sustainability in arid zones. The canals crossed harsh terrain, linking rivers like the Kunar to isolated valleys. These engineering feats—often constructed under extreme weather—became lifelines for entire regions. The Gamberi Desert itself was transformed, turning barren land into green fields and fruit orchards.",
+  "canalDesc1": " After the Soviet withdrawal, he entered Afghanistan for the first time in 1991 and saw Nangarhar — tired from war, poverty, and drought. That year, he built three clinics for war-displaced people in Nangarhar. But soon, he realized the real illness was something else: drought and malnutrition. With the slogan “Water, not weapons,”he began constructing irrigation canals that turned barren lands into productive farmland. In 2003, Nakamura built an irrigation canal in Khiywa District, Nangarhar, which people named “The Pearl.” This 25-kilometer-long canal carries water from the Kunar River to farmlands and homes.",
+  "canalDesc2":" He also built more than eight irrigation canals in the Gamberi desert. These canals irrigate 16,000 hectares of land and have transformed the lives of over 600,000 people. He built 11 water diversion dams on the Kunar River. He had a vision for the development of Afghanistan and worked for three decades to improve thousands of lives for future generations."
+
+},
+
+
+   "gallery":   {
+  "gallery.title": "Gallery",
+  "gallery.cap1": "Former Philippine President Gloria Arroyo (R) congratulates Dr. Tetsu Nakamura, (L) at the 2003 Ramon Magsaysay awards.",
+  "gallery.cap2": "The leader of Goryak Village with Dr. Tetsu Nakamura.",
+  "gallery.cap3": "Negotiations in Goryak Village on how to reduce flood damage and ensure stable irrigation. October 2019.",
+  "gallery.cap4": "Dr. Nakamura studies an X-ray image at a canal construction site. Courtesy of Peshawar-kai/PMS.",
+  "gallery.cap5": "PMS food distribution in Afghanistan. Courtesy of Peshawar-kai/PMS.",
+  "gallery.cap6": "Dr. Nakamura operates an excavator in Afghanistan. Courtesy of Peshawar-kai/PMS.",
+  "gallery.cap7": "The same location in 2003 and 2009 along a canal Dr. Nakamura helped build. Courtesy of Peshawar-kai/PMS.",
+  "gallery.cap8": "Photo from 2016: Tetsu Nakamura by a canal near Jalalabad, built with Japanese tech.",
+  "gallery.cap9": "On January 22, 2018, water began flowing from Kama II Weir as locals looked on."
+},
+
+"honors": {
+  "title": "Honors & Legacy",
+  "intro": "Throughout his lifetime, Dr. Nakamura was recognized by governments, institutions, and global organizations for his tireless commitment to humanity, environmental restoration, and peacebuilding across Asia.",
+  "cards": [
+    {
+      "title": "🇯🇵 Order of the Rising Sun",
+      "date": "Date: N/A",
+      "summary": "One of Japan’s highest honors, recognizing his extraordinary service abroad.",
+      "significance": "Awarded for his unwavering humanitarian service across borders and dedication to peacebuilding in Asia."
+    },
+    {
+      "title": "🇦🇫 Afghanistan’s Highest Civilian Medal",
+      "date": "Date: 2019",
+      "summary": "Awarded for his contributions to peace, development, and rebuilding Afghanistan.",
+      "significance": "Symbolizes the Afghan people's deep gratitude, recognizing his irrigation projects and community healing efforts."
+    },
+    {
+      "title": "🇵🇭 Ramon Magsaysay Award",
+      "date": "Date: 2003",
+      "summary": "Asia’s Nobel Prize for peace and international understanding.",
+      "significance": "Recognized for transcending politics, religion, and ethnicity in his quest for mutual dependence and peace."
+    },
+    {
+      "title": "🇯🇵 Fukuoka Prize (Grand Prize)",
+      "date": "Date: 2013",
+      "summary": "Recognized for his exceptional contributions to preserving Asian culture and humanitarian work.",
+      "significance": "One of Japan’s most prestigious international prizes for individuals contributing to Asian culture and peace."
+    },
+    {
+      "title": "🇯🇵 Kikuchi Kan Prize",
+      "date": "Date: 2013",
+      "summary": "Awarded by the Society for the Promotion of Japanese Literature.",
+      "significance": "Honors individuals contributing significantly to Japanese culture, writing, or broadcasting."
+    },
+    {
+      "title": "🌏 Earth Hall of Fame Kyoto",
+      "date": "Date: 2016",
+      "summary": "Recognized for his environmental efforts and sustainable development initiatives in Afghanistan.",
+      "significance": "Celebrates global leaders in environmental preservation and sustainability."
+    },
+    {
+      "title": "🇮🇳 Padma Shri (Posthumous)",
+      "date": "Date: 2020",
+      "summary": "India’s 4th highest civilian award, given posthumously.",
+      "significance": "Acknowledges his humanitarian work benefiting the Afghan people and his role in regional peacebuilding."
+    },
+    {
+      "title": "🦟 Insect Named in His Honor",
+      "date": "Date: 2020",
+      "summary": "A new gall midge species, Massalongia nakamuratetsui, was named after him.",
+      "significance": "Symbolizes recognition from the scientific community for his environmental and humanitarian legacy."
+    }
+  ]
+},
+
+
+  "quotes": {
+  "quote1": "One irrigation canal will do more good than 100 doctors. A hospital treats patients one by one, but this helps an entire village.",
+  "quote2": "Weapons and tanks don’t solve problems. The revival of farming is the cornerstone of Afghanistan’s recovery."
+},
+
+"videos": {
+  "title": "🎥 Video Tributes"
+},
+
+"footer": {
+  "credits": "Designed and developed in tribute to Dr. Tetsu Nakamura.",
+  "rights": "© 2025 All rights reserved.",
+  "star": "Give a Star on GitHub"
+}
+
+
+
+
+
+
+  }
+  

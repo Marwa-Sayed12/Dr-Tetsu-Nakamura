@@ -1,0 +1,588 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Lateef:wght@200;300;400;500;600;700;800&family=Mirza:wght@400;500;600;700&family=Noto+Naskh+Arabic:wght@400..700&family=Noto+Sans+Arabic:wght@100..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Lateef:wght@200;300;400;500;600;700;800&family=Mirza:wght@400;500;600;700&family=Noto+Naskh+Arabic:wght@400..700&family=Noto+Sans+Arabic:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Tajawal:wght@200;300;400;500;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+
+h2 {
+  font-size: 3rem;
+  background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+  background: linear-gradient(to bottom, #ffffff, #d592f4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Amiri", serif;
+  font-size: 2.3rem;
+
+
+}
+
+.timeline_title{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #046ea3;
+}
+
+.inline-block {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.page-wrapper {
+  z-index: 0;
+  position: relative;
+  
+}
+
+.container {
+  width: 90vw;
+  max-width: 1360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.margin-bottom-medium {
+  margin-bottom: 32px;
+}
+
+.paragraph-large {
+  letter-spacing: -0.02em;
+  font-size: 20px;
+}
+
+.section-timeline-heading {
+  background-color: #0a0a0a;
+}
+
+.padding-vertical-xlarge {
+  padding-top: 190px;
+}
+
+.timeline-main_heading-wrapper {
+  color: #fff;
+  text-align: center;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.timeline_component {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: relative;
+  direction: ltr !important;
+}
+
+.timeline_item {
+  z-index: 2;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 180px 1fr;
+  grid-auto-columns: 1fr;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: grid;
+  position: relative;
+}
+
+.timeline_left {
+  text-align: right;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+
+.timeline_centre {
+  justify-content: center;
+  display: flex;
+}
+
+.timeline_date-text {
+  background: linear-gradient(to bottom, #11a87d, #470ecb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Noto Naskh Arabic", serif;
+  font-optical-sizing: auto;
+  line-height: 1.2;
+  position: sticky;
+  top: 50vh;
+}
+
+.timeline_text {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: start;
+  font-family: "Tajawal", sans-serif;
+  font-weight: 300;
+  font-style: normal;  
+  
+}
+
+.timeline_circle {
+  background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);  
+  
+  border-radius: 100%;
+  width: 50px;
+  min-width: 50px;
+  max-width: 50px;
+  height: 50px;
+  min-height: 50px;
+  max-height: 50px;
+  position: sticky;
+  top: 50vh;
+  box-shadow: 0 0 0 8px #0a0a0a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #ffffff;
+  -webkit-animation: glow   1s ease-in-out infinite alternate;
+  -moz-animation: glow  s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    box-shadow:
+      0 0 55px #46286a,
+      0 0 30px #502972,
+      0 0 30px #5b2d81,
+      0 0 40px #6d448b,
+      0 0 35px #48205f;
+  }
+  to {
+    box-shadow:
+      0 0 50px #67449a,
+      0 0 44px #5d3b88,
+      0 0 30px #6b3c96,
+      0 0 45px #734a97,
+      0 0 30px #4c306b;
+  }
+}
+
+
+
+.timeline_progress {
+  z-index: -2;
+  /* background-color: #000000; */
+  width: 7px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+}
+
+.timeline_progress-bar {
+  z-index: -1;
+  background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #077607 100%);      width: 7px;
+  height: 100%;
+  /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+  position: absolute;
+  top: 0;
+  left: 2px;
+}
+
+
+.section-timeline {
+  z-index: -3;
+  /* background: linear-gradient(to bottom, #030303, #5a2493); */
+  background-image: url('../images/mesh-309.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+ 
+}
+
+.margin-bottom-xlarge {
+  margin-bottom: 56px;
+}
+
+.timeline_link {
+  opacity: 0.6;
+  color: #fff;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-decoration: none;
+  transition: opacity 0.3s;
+  display: flex;
+  
+}
+
+.timeline_link:hover {
+  opacity: 1;
+}
+
+.link-icon {
+  width: 60px;
+  height: 60px;
+  margin-left: 8px;
+  
+}
+
+
+.inline-block {
+  display: inline-block;
+}
+
+.text-colour-lightgrey {
+  color: #ffffffa6;
+}
+
+.overlay-fade-top {
+  background-image: linear-gradient(#0a0a0a, #0a0a0a00);
+  height: 80px;
+  position: absolute;
+  inset: 0% 0% auto;
+}
+
+.overlay-fade-bottom {
+  /* background-image: linear-gradient(to top, #0a0a0a, #0a0a0a00); */
+  background-image: url('../images/mesh-30.png');
+  background-size: cover;
+  background-position: center;
+  height: 20px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  position: absolute;
+  inset: auto 0% 0%; 
+}
+
+body[dir="rtl"] .timeline_title{
+  font-family: "amiri", serif;
+  font-size: 1.5rem;
+  text-align: right;
+}
+body[dir="rtl"] .timeline_text{
+  font-family: "Lateef", serif;
+  font-size: 2.4rem;
+  text-align: right;
+}
+body[dir="rtl"]  .timeline_date-text{
+  font-family: "Noto Naskh Arabic", serif;
+  font-optical-sizing: auto;
+  font-size: 2rem;
+  text-align: right;
+}
+body[dir="rtl"] .timeline_text{
+  font-family: "Lateef", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2rem;
+  text-align: right;
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .paragraph-large {
+    font-size: 18px;
+  }
+
+
+  .timeline_item {
+    grid-template-columns: 64px 1fr;
+    width: 100%;
+  }
+
+  .timeline_left {
+    text-align: left;
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  .timeline_centre {
+    justify-content: flex-start;
+    grid-area: 1 / 1 / 3 / 2;
+  }
+
+  .timeline_right {
+    grid-area: span 1 / span 1 / span 1 / span 1;
+  }
+
+  .timeline_date-text {
+    margin-bottom: 24px;
+    font-size: 29px;
+  }
+
+  .timeline_text {
+    font-size: 25px;
+  }
+
+  .timeline_progress {
+    left: 6px;
+  }
+
+  body[dir="rtl"] .margin-bottom-medium{
+    font-family: "Amiri", serif;
+  font-weight: 600;
+  font-style: normal;
+    font-size: 2.7rem;
+  }
+  body[dir="rtl"]  .timeline_date-text{
+    font-family: "Noto Naskh Arabic", serif;
+    font-optical-sizing: auto;
+    font-size: 2.4rem;
+    text-align: right;
+  }
+
+  body[dir="rtl"] .timeline_text{
+    font-family: "Lateef", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.2rem;
+    text-align: right;
+  }
+
+  body[dir="rtl"] .timeline_title{
+    font-size: 1.9rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .timeline_title{
+    font-size: 1.6rem;
+    margin-bottom: 0.7rem;
+  }
+
+}
+
+  /* ----------------------------------------ipad pro */
+  @media (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait)
+ { h2 {
+      font-size: 3rem;
+    }
+  
+    .paragraph-large {
+      font-size: 20px;
+    }
+    .timeline_text{
+      font-size: 2rem;
+    }
+    .timeline_date-text{
+      font-size: 2.4rem;
+    }
+    .timeline_circle{
+      width: 80px;
+  min-width: 80px;
+  max-width: 80px;
+  height: 80px;
+  min-height: 80px;
+  max-height: 80px;
+    }
+    .timeline_title{
+      font-size: 1.9rem;
+    }
+  
+    body[dir="rtl"] .margin-bottom-medium{
+      font-family: "Amiri", serif;
+    font-weight: 600;
+    font-style: normal;
+      font-size: 2.7rem;
+    }
+    body[dir="rtl"]  .timeline_date-text{
+      font-family: "Noto Naskh Arabic", serif;
+      font-optical-sizing: auto;
+      font-size: 2.4rem;
+      text-align: right;
+    }
+  
+    body[dir="rtl"] .timeline_text{
+      font-family: "Lateef", serif;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 2.4rem;
+      text-align: right;
+    }
+    body[dir="rtl"] .timeline_title{
+      font-size: 2.2rem;
+    }
+    body[dir="rtl"] .timeline_date-text{
+      font-size: 2.8rem;
+    }
+
+
+  }
+
+    /* ----------- iPad 1, 2, Mini and Air ----------- */
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 1) {
+
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  .paragraph-large {
+    font-size: 20px;
+  }
+  .timeline_text{
+    font-size: 1.7rem;
+  }
+  .timeline_date-text{
+    font-size: 2.4rem;
+    
+  }
+  .timeline_circle{
+    width: 80px;
+min-width: 80px;
+max-width: 80px;
+height: 80px;
+min-height: 80px;
+max-height: 80px;
+  }
+  .timeline_title{
+    font-size: 1.9rem;
+  }
+
+  body[dir="rtl"] .margin-bottom-medium{
+    font-family: "Amiri", serif;
+  font-weight: 600;
+  font-style: normal;
+    font-size: 2.7rem;
+  }
+  body[dir="rtl"]  .timeline_date-text{
+    font-family: "Noto Naskh Arabic", serif;
+    font-optical-sizing: auto;
+    font-size: 2.4rem;
+    text-align: right;
+  }
+
+  body[dir="rtl"] .timeline_text{
+    font-family: "Lateef", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.4rem;
+    text-align: right;
+  }
+  body[dir="rtl"] .timeline_title{
+    font-size: 2.2rem;
+  }
+  body[dir="rtl"] .timeline_date-text{
+    font-size: 2.4rem;
+  }
+
+}
+
+
+
+@media screen and (min-width: 2940px) and (max-width: 2980px)
+      and (min-height: 1820px) and (max-height: 1860px)
+      and (orientation: landscape) {
+
+
+        h2 {
+          font-size: 5rem;
+        }
+   
+        .timeline_text{
+          font-size: 2.9rem;
+        }
+        .timeline_date-text{
+          font-size: 2.9rem;
+          
+        }
+        .timeline_circle{
+          width: 100px;
+      min-width: 100px;
+      max-width: 100px;
+      height: 100px;
+      min-height: 100px;
+      max-height: 100px;
+        }
+        .timeline_title{
+          font-size: 2.9rem;
+        }
+      
+        body[dir="rtl"] .margin-bottom-medium{
+      
+          font-size: 2.7rem;
+        }
+        body[dir="rtl"]  .timeline_date-text{
+       
+          font-size: 2.4rem;
+          text-align: right;
+        }
+      
+        body[dir="rtl"] .timeline_text{
+       
+          font-size: 2.4rem;
+          text-align: right;
+        }
+        body[dir="rtl"] .timeline_title{
+          font-size: 2.2rem;
+        }
+        body[dir="rtl"] .timeline_date-text{
+          font-size: 2.4rem;
+        }
+      }
+
+      @media screen and (min-width: 1820px) and (max-width: 1860px)
+      and (min-height: 2940px) and (max-height: 2980px)
+      and (orientation: portrait) {
+
+        h2 {
+          font-size: 5rem;
+        }
+   
+        .timeline_text{
+          font-size: 2.9rem;
+        }
+        .timeline_date-text{
+          font-size: 2.9rem;
+          
+        }
+        .timeline_circle{
+          width: 100px;
+      min-width: 100px;
+      max-width: 100px;
+      height: 100px;
+      min-height: 100px;
+      max-height: 100px;
+        }
+        .timeline_title{
+          font-size: 2.9rem;
+        }
+      
+        body[dir="rtl"] .margin-bottom-medium{
+      
+          font-size: 2.7rem;
+        }
+        body[dir="rtl"]  .timeline_date-text{
+       
+          font-size: 2.4rem;
+          text-align: right;
+        }
+      
+        body[dir="rtl"] .timeline_text{
+       
+          font-size: 2.4rem;
+          text-align: right;
+        }
+        body[dir="rtl"] .timeline_title{
+          font-size: 2.2rem;
+        }
+        body[dir="rtl"] .timeline_date-text{
+          font-size: 2.4rem;
+        }
+      }
+  

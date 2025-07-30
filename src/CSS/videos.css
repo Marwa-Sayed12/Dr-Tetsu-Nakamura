@@ -1,0 +1,132 @@
+.videos-section {
+  padding: 5rem 1rem;
+  background-color: #0c1b22;
+  color: var(--text-light);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+  color: #00ffff;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.video-card {
+  background: #122b38;
+  position: relative;
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 0 8px 24px rgba(0, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.video-card iframe {
+  width: 100%;
+  height:   100%;
+  border: none;
+  display: block;
+  aspect-ratio: 16 / 9;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.video-card h4 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #00ff37;
+  font-size: 2rem;
+  z-index: 10;
+}
+
+.swiper-pagination-bullet {
+  background: #c1f600;
+}
+
+@media (max-width: 768px) {
+  .videos-section {
+    padding: 3rem 1.0rem;
+  }
+
+  .video-card {
+    position: relative;
+    width: 85%;
+    padding-bottom: 70.25%;
+    position: relative;
+    margin-left: 5%;
+    height: 0;
+  }
+
+
+  .video-card iframe {
+    left: 0%;
+    padding: 1rem;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+  }
+
+  /* Dari font */
+  body[lang="dr"] .videos-section h4,
+  body[lang="dr"] .section-title {
+    font-family: "Amiri", serif;
+    direction: rtl;
+  }
+
+  /* Pashto font */
+  body[lang="ps"] .videos-section h4,
+  body[lang="ps"] .section-title {
+    font-family: "Amiri", serif;
+    direction: rtl;
+  }
+  body[dir="ltr"] .section-title {
+    font-family: "Amiri", serif;
+    text-align: center;
+    font-size: 3.2rem;
+  }
+ 
+}
+
+
+                  /* ----------- iPad 1, 2, Mini and Air ----------- */
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 1) {
+
+
+  body[dir="rtl"]  .video-card {
+    width: 93%;
+    padding-bottom: 70.25%;
+    margin-left: 3%;
+  }
+  body[dir="rtl"] .video-card iframe {
+    width: 100%;
+    height:   100%;
+    border: none;
+    display: block;
+    aspect-ratio: 16 / 9;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+  }
+
+
+}

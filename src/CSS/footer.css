@@ -1,0 +1,113 @@
+.footer {
+    background-color: #111;
+    color: #ddd;
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size:1rem;
+    height: 41vh;
+    border-top: 1px solid #333;
+    font-family: "Noto Naskh Arabic", serif;
+  }
+  
+  .footer p {
+    
+    margin: 1.4rem 0;
+    line-height: 1.6;
+    font-size: 1.1rem;
+  }
+  .footer .right{
+    font-size: 1rem;
+  }
+
+  .social-icons {
+    margin-top: 2rem;
+  }
+  
+  .social-icons a {
+    color: #ddd;
+    margin: 0 8px;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #1da1f2;
+  }
+  
+  .star-button {
+    margin-top: 1rem;
+    display: inline-block;
+    background-color: #f5c518;
+    color: #000;
+    padding: 8px 9px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .star-button:hover {
+    background-color: #ffdd57;
+  }
+  
+  .star-icon {
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+
+  
+  @media (max-width: 768px)  {
+    .footer {
+      height: 43vh;
+    }
+    .footer-content{
+      margin-top: 3rem;
+    }
+
+    .star-icon{
+      font-size: 23px;
+    }
+      
+  .social-icons a {
+    font-size: 1.8rem;
+  }
+  
+    body[lang="dr"] .footer-content p,
+    body[lang="ps"] .footer-content p{
+      font-family: "Lateef", serif;
+      font-size: 2rem;
+      text-align: center;
+    }
+    body[lang="dr"] .footer-content .right,
+    body[lang="ps"] .footer-content .right {
+      font-family: "Lateef", serif;
+      font-size: 1.7rem;
+      text-align: center;
+    }
+
+
+  }
+
+  
+                  /* ----------- iPad 1, 2, Mini and Air ----------- */
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 1) {
+
+  
+  body[lang="dr"] .footer-content p,
+  body[lang="ps"] .footer-content p{
+    font-family: "Lateef", serif;
+    font-size: 2rem;
+    text-align: center;
+  }
+  body[lang="dr"] .footer-content .right,
+  body[lang="ps"] .footer-content .right {
+    font-family: "Lateef", serif;
+    font-size: 1.8rem;
+    margin-top: 4.5rem;
+    text-align: center;
+  }
+}

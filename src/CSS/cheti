@@ -1,0 +1,821 @@
+
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2.6rem;
+  }
+
+  .project-text h3,
+  .project-text-farm h3,
+  .project-text-masjid h3,
+  .project-text-hos h3,
+  .project-text-award h3 {
+    display: flex;
+    justify-content: center;
+  font-size: 2.1rem;
+  }
+
+  .project-text ,
+  .project-text-farm p,
+  .project-text-masjid p,
+  .project-text-hos p,
+  .project-text-award p {
+    max-width: 100%;
+    text-align: justify;
+    font-size: 23px;
+  }
+
+  .project-img-farm img,
+  .project-img-farm-2 img
+ {
+  
+    width: 90vw;
+    height: 30vh;
+  }
+
+  .project-img-masjid{
+    grid-template-columns: 1fr !important;
+  }
+  .project-img-masjid img{
+    width: 80vw;
+    height: 25vh;
+    
+  }
+  
+  .project-img-canal img {
+    width: 90vw;
+    height: 35vh;
+  }
+
+  .award-card img {
+    height: auto;
+  }
+
+  .project-img-farm,
+  .project-img-farm-2,
+  .project-img-masjid,
+  .project-img-canal {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-img {
+    max-width: 100%;
+  }
+
+  .project-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .honor-card {
+    width: 100%;
+    max-width: 90vw;
+  }
+
+  .honors-intro {
+    font-size: 1.3rem;
+    padding: 0 1rem;
+  }
+  body[dir="rtl"]  .section-title {
+    font-family: "Amiri", serif;
+    font-weight: 600;
+    font-style: normal;
+      font-size: 2.7rem;
+  }
+  
+  body[dir="rtl"] .project-block h3 {
+    font-family: "Lateef", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.6rem;
+    text-align: center;
+}
+
+body[dir="rtl"] .project-block p {
+  font-family: "Lateef", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.9rem;
+  text-align: justify;
+}
+body[dir="ltr"] .project-block p {
+    font-size: 1.4rem;
+    text-align: justify;
+  
+  }
+  body[dir="ltr"] .project-block h3 {
+    font-family: "Lateef", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.7rem;
+    text-align: center;
+    
+    }
+
+
+}
+
+      /* ----------------------------------------ipad pro */
+      @media (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait)
+{      .section-title {
+          font-size: 2.6rem;
+        }
+      
+        body[dir="ltr"] .project-text h3,
+        .project-text-farm h3,
+        .project-text-masjid h3,
+        .project-text-hos h3,
+        .project-text-award h3 {
+          display: flex;
+          justify-content: center;
+        font-size: 2.6rem;
+        }
+      
+        .project-text ,
+        .project-text-farm p,
+        .project-text-masjid p,
+        .project-text-hos p,
+        .project-text-award p {
+          max-width: 100%;
+          text-align: justify;
+          font-size: 29px;
+        }
+      
+        .project-img-farm img,
+        .project-img-farm-2 img
+       {
+        
+          width: 90vw;
+          height: 37vh;
+        }
+      
+        .project-img-masjid{
+          grid-template-columns: 1fr !important;
+        }
+        .project-img-masjid img{
+          width: 80vw;
+          height: 25vh;
+          
+        }
+        
+        .project-img-canal img {
+          width: 70vw;
+          height: 38vh;
+        }
+      
+        .award-card img {
+          height: auto;
+        }
+      
+        .project-img-farm,
+        .project-img-farm-2,
+        .project-img-masjid,
+        .project-img-canal {
+          flex-direction: column;
+          align-items: center;
+        }
+      
+        .project-img {
+          max-width: 100%;
+        }
+      
+        .project-img img {
+          width: 100%;
+          height: auto;
+        }
+      
+        body[dir="rtl"]  .section-title {
+          font-family: "Amiri", serif;
+          font-weight: 600;
+          font-style: normal;
+            font-size: 3rem;
+        }
+        
+        body[dir="rtl"] .project-block h3 {
+          font-family: "Lateef", serif;
+          font-weight: 500;
+          font-style: normal;
+          font-size: 3.3rem;
+          text-align: center;
+      }
+      
+      body[dir="rtl"] .project-block p {
+        font-family: "Lateef", serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 2.4rem;
+        text-align: justify;
+      }
+
+      body[dir="rtl"]  .project-img {
+        flex: 1 1 50%;
+            max-width: 55vw;
+            margin: 0 auto;
+      }
+      body[dir="rtl"] .project-text-hos{
+        max-width: 100%;
+      }
+      
+      body[dir="rtl"] .project-img-masjid {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 80vw;
+     }
+
+      /* ------------------------------------------- */
+      body[dir="ltr"] .project-block p {
+        font-family: "Tajawal", sans-serif;
+        font-weight: 300;
+        font-style: normal; 
+          font-size: 1.8rem;
+          text-align: justify;
+        
+        }
+        body[dir="ltr"] .project-block h3 {
+          font-family: "Lateef", serif;
+          font-weight: 500;
+          font-size: 3.7rem;
+          }
+          body[dir="ltr"] .project-text-hos{
+            max-width: 100%;
+          }
+          body[dir="ltr"] .project-img {
+            flex: 1 1 50%;
+            max-width: 55vw;
+            margin: 0 auto;
+              }
+
+          body[dir="ltr"] .project-img img {
+             width: 100%;
+          }
+
+          body[dir="ltr"] .project-img-masjid {
+            margin: 0 auto;
+            width: 100%;
+            max-width: 80vw;
+         }
+
+
+      }
+
+                  /* ----------- iPad 1, 2, Mini and Air ----------- */
+/* Portrait and Landscape */
+@media only screen 
+and (width: 1024px) 
+and (height: 768px)  {
+  .section-title {
+    font-size: 2.6rem;
+  }
+
+  body[dir="ltr"] .project-text h3,
+  .project-text-farm h3,
+  .project-text-masjid h3,
+  .project-text-hos h3,
+  .project-text-award h3 {
+    display: flex;
+    justify-content: center;
+  font-size: 2.6rem;
+  }
+
+  .project-text ,
+  .project-text-farm p,
+  .project-text-masjid p,
+  .project-text-hos p,
+  .project-text-award p {
+    max-width: 100%;
+    text-align: justify;
+    font-size: 29px;
+  }
+
+  .project-img-farm img,
+  .project-img-farm-2 img
+ {
+  
+    width: 90vw;
+    height: 50vh;
+  }
+
+  .project-img-masjid{
+    margin: 0 auto;
+    grid-template-columns: 1fr !important;
+    margin: 0 auto;
+  }
+  .project-img-masjid img{
+    width: 40vw;
+    height: 35vh;
+    
+  }
+  
+  .project-img-canal img {
+    width: 70vw;
+    height: 38vh;
+  }
+
+  .award-card img {
+    height: auto;
+  }
+
+  .project-img-farm,
+  .project-img-farm-2,
+  .project-img-masjid,
+  .project-img-canal {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-img {
+    max-width: 100%;
+  }
+
+  .project-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  body[dir="rtl"]  .section-title {
+      font-size: 3rem;
+  }
+  
+  body[dir="rtl"] .project-block h3 {
+    font-size: 3.3rem;
+    text-align: center;
+}
+
+body[dir="rtl"] .project-block p {
+  font-size: 2.4rem;
+  text-align: justify;
+}
+
+body[dir="rtl"]  .project-img {
+  flex: 1 1 50%;
+      max-width: 55vw;
+      margin: 0 auto;
+}
+body[dir="rtl"] .project-text-hos{
+  max-width: 100%;
+}
+
+
+/* ------------------------------------------- */
+body[dir="ltr"] .project-block p {
+    font-size: 1.8rem;
+    text-align: justify;
+  
+  }
+  body[dir="ltr"] .project-block h3 {
+    font-size: 3.7rem;
+    }
+    body[dir="ltr"] .project-text-hos{
+      max-width: 100%;
+    }
+    body[dir="ltr"] .project-img {
+      flex: 1 1 50%;
+      max-width: 55vw;
+      margin: 0 auto;
+        }
+
+    body[dir="ltr"] .project-img img {
+       width: 100%;
+    }
+
+    body[dir="ltr"] .project-img-masjid {
+      margin: 0 auto;
+      width: 100%;
+      max-width: 80vw;
+   }
+
+}
+
+/* ipad pro landscape---------------------------------------------------------- */
+
+@media only screen and (min-device-width: 1024px)
+  and (max-device-width: 1366px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2){
+
+  body[dir="ltr"] .project-img-farm img,
+  .project-img-farm-2 img
+ {
+  
+  width: 80vw;
+  height: 60vh;
+  }
+  body[dir="ltr"] .project-img-masjid img{
+    width: 80vw;
+        height: 50vh;
+    
+  }
+  body[dir="ltr"] .project-img-canal img {
+    width: 30vw;
+    object-fit: cover;
+    height: 35vh;
+  }
+
+      body[dir="ltr"] .project-text-hos{
+        max-width: 100%;
+      }
+      body[dir="ltr"] .project-img {
+        flex: 1 1 50%;
+        max-width: 55vw;
+        margin: 0 auto;
+          }
+  
+          body[dir="ltr"] .project-text ,
+          .project-text-farm p,
+          .project-text-masjid p,
+          .project-text-hos p,
+          .project-text-award p {
+            max-width: 100%;
+            text-align: justify;
+            font-size: 29px;
+          }
+        
+          body[dir="ltr"] .project-img-farm img,
+          body[dir="ltr"] .project-img-farm-2 img
+         {
+          
+            width: 80vw;
+            height: 57vh;
+          }
+        
+          body[dir="ltr"] .project-img-masjid{
+            grid-template-columns: 1fr !important;
+          }
+          body[dir="ltr"] .project-img-masjid img{
+            width: 80vw;
+            height: 50vh;
+            margin: 0 auto;
+            
+          }
+          
+          body[dir="ltr"] .project-img-canal img {
+            width: 70vw;
+            height: 59vh;
+          }
+        
+          body[dir="ltr"] .award-card img {
+            height: auto;
+          }
+        
+          body[dir="ltr"] .project-img-farm,
+          .project-img-farm-2,
+          .project-img-masjid,
+          .project-img-canal {
+            flex-direction: column;
+            align-items: center;
+          }
+        
+          body[dir="ltr"] .project-img {
+            flex: 1 1 50%;
+              max-width: 50vw;
+              margin: 0 auto;
+          }
+        
+          body[dir="ltr"] .project-img img {
+            width: 50vw;
+            height: 43vh;
+            margin: 0 auto;
+          }
+
+      /* --------------------------------------------------- */
+      body[dir="rtl"] .project-img-farm img,
+      .project-img-farm-2 img
+     {
+      
+        width: 80vw;
+        height: 60vh;
+      }
+      body[dir="rtl"] .project-img-masjid img{
+        width: 80vw;
+        height: 50vh;
+        
+      }
+      body[dir="rtl"] .project-img-canal img {
+        width: 30vw;
+        object-fit: cover;
+        height: 35vh;
+      }
+      body[dir="rtl"] .project-block h3 {
+        font-family: "Lateef", serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 3.3rem;
+        text-align: center;
+    }
+    
+    body[dir="rtl"] .project-block p {
+      font-family: "Lateef", serif;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 2.6rem;
+      text-align: justify;
+    }
+    
+    body[dir="rtl"]  .project-img {
+      flex: 1 1 50%;
+          max-width: 55vw;
+          margin: 0 auto;
+    }
+    body[dir="rtl"] .project-text-hos{
+      max-width: 100%;
+    }
+    
+    body[dir="rtl"] .project-img-masjid {
+      margin: 0 auto;
+      width: 100%;
+      max-width: 80vw;
+    }
+    body[dir="rtl"] .project-text ,
+    .project-text-farm p,
+    .project-text-masjid p,
+    .project-text-hos p,
+    .project-text-award p {
+      max-width: 100%;
+      text-align: justify;
+      font-size: 29px;
+    }
+  
+    body[dir="rtl"] .project-img-farm img,
+    body[dir="rtl"] .project-img-farm-2 img
+   {
+    
+      width: 80vw;
+      height: 57vh;
+    }
+  
+    body[dir="rtl"] .project-img-masjid{
+      grid-template-columns: 1fr !important;
+    }
+    body[dir="rtl"] .project-img-masjid img{
+      width: 80vw;
+      height: 50vh;
+      
+    }
+    
+    body[dir="rtl"] .project-img-canal img {
+      width: 70vw;
+      height: 59vh;
+    }
+  
+    body[dir="rtl"] .award-card img {
+      height: auto;
+    }
+  
+    body[dir="rtl"] .project-img-farm,
+    .project-img-farm-2,
+    .project-img-masjid,
+    .project-img-canal {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    body[dir="rtl"] .project-img {
+      flex: 1 1 50%;
+        max-width: 50vw;
+        margin: 0 auto;
+    }
+  
+    body[dir="rtl"] .project-img img {
+      width: 50vw;
+      height: 43vh;
+      margin: 0 auto;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------- */
+/* Landscape */
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+
+    body[dir="ltr"] .project-img-farm img,
+    .project-img-farm-2 img
+   {
+    
+      width: 80vw;
+      height: 60vh;
+    }
+    .project-img-masjid {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin: 0 auto;
+    }
+    body[dir="ltr"] .project-img-masjid img{
+      width: 80vw;
+      height: 50vh;
+      
+    }
+    body[dir="ltr"] .project-img-canal img {
+      width: 80vw;
+      height: 66vh;
+    }
+
+    /* --------------------------------------------------- */
+    body[dir="rtl"] .project-img-farm img,
+    .project-img-farm-2 img
+   {
+    
+      width: 80vw;
+      height: 60vh;
+    }
+    body[dir="rtl"] .project-img-masjid img{
+      width: 80vw;
+      height: 50vh;
+      
+    }
+    body[dir="rtl"] .project-img-canal img {
+      width: 80vw;
+      height: 66vh;
+    }
+
+  }
+
+
+
+  /*--------------------------------------------------------------------- */
+
+@media only screen and (min-width: 1440px) and (max-width: 1700px) and (min-height: 900px) and (max-height: 1050px) {
+
+  .project-img {
+    flex: 1 1 50%;
+    max-width: 40vw;
+    
+    /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
+  }
+  
+  .project-img img {
+    width: 100%;
+    height: auto;
+  }
+  /* -------------------------------------------------------- */
+  body[dir="rtl"] .project-img {
+    flex: 1 1 50%;
+    max-width: 30vw;
+  }
+  
+  body[dir="rtl"] .project-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+    object-fit: cover;
+    flex-direction: column;
+  }
+  }
+  
+
+
+    /* --------------------------------------------------------- */
+
+
+
+
+
+
+@media (max-width: 430px) {
+.project-img-farm
+  {
+  flex-direction: column;
+  align-items: center;
+}
+.project-img-farm-2
+{
+flex-direction: column;
+align-items: center;
+}
+  
+  .project-img-farm-2 img
+  
+ {
+    width: 90vw;
+    height: 30vh;
+  }
+
+ .project-img-farm img
+  
+ {
+    width: 90vw;
+    height: 50vh;
+  }
+
+  .project-img-masjid{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .project-img-masjid img{
+    width: 90vw;
+    height: 40vh;
+    
+  }
+  .project-img-canal img {
+    width: 80vw;
+    height: 66vh;
+  }
+
+ .project-img {
+  flex: 1 1 50%;
+  margin: 0 auto;
+  max-width: 80vw;
+  }
+  .project-img-canal{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .project-img-canal img{
+    width:  90vw;
+    height: 59vh;
+  }
+
+
+}            
+
+
+
+@media only screen and (max-width: 480px) {
+
+  .project-img-farm-2
+  {
+  flex-direction: column;
+  align-items: center;
+  }
+    
+    .project-img-farm-2 img
+    
+   {
+      width: 90vw;
+      height: 30vh;
+    }
+  
+   .project-img-farm img
+    
+   {
+      width: 90vw;
+      height: 30vh;
+    }
+  
+    .project-img-masjid{
+      display: grid;
+      grid-template-columns: 1fr;
+      margin: 0 auto;
+    }
+    .project-img-masjid img{
+      width: 80vw;
+      height: 20vh;
+      object-fit: cover;
+      
+    }
+    .project-img-canal img {
+      width: 80vw;
+      height: 70vh;
+    }
+  
+   .project-img {
+    flex: 1 1 50%;
+    margin: 0 auto;
+    max-width: 90vw;
+    }
+    .project-img-canal{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .project-img-canal img{
+      width:  80vw;
+      height: 23vh;
+    }
+
+}
+
+
+@media screen and (max-width: 767px) {
+  .project-img-farm {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .project-img-farm img {
+    width: 90vw;
+    height: auto;
+  }
+}
+
+

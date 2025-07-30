@@ -1,0 +1,140 @@
+.honor-quotes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 2rem;
+    gap: 2rem;
+    background-color: #0f1a20;
+  }
+  
+  .honor-quotes .quote-img img {
+    width: 300px;
+    max-width: 100%;
+    /* box-shadow: 0 0 20px rgba(0, 255, 200, 0.3); */
+  }
+  
+  .honor-quotes .quote-text {
+    max-width: 700px;
+    color: var(--text-light);
+    font-size: 1.4rem;
+    line-height: 1.8;
+    position: relative;
+    font-family: "Tajawal", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+        margin: 2rem;
+  }
+  
+  .quote-mark {
+    font-size: 4rem;
+    color: #0ff;
+    display: block;
+    margin-bottom: 1rem;
+  }
+  
+  .quote-author {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #8afaff;
+    font-family: "Mirza", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  .left-img {
+    flex-direction: row;
+  }
+  
+  .right-img {
+    flex-direction: row-reverse;
+  }
+
+
+
+  body[dir="rtl"]  .quote-text {
+    font-family: "Lateef", serif;
+    font-weight: 300;
+    font-style: normal;
+      font-size: 2.1rem;
+  }
+  
+  body[dir="rtl"]  .quote-author {
+    font-family: "Noto Naskh Arabic", serif;
+    font-optical-sizing: auto;
+      font-size: 1.7rem;
+  }
+
+
+
+
+  
+  @media (max-width: 768px) {
+    .honor-quotes {
+      flex-direction: column !important;
+      text-align: center;
+    }
+  
+    .quote-text {
+      font-size: 1.4rem;
+    }
+  
+    .quote-mark {
+      font-size: 3rem;
+    }
+    body[dir="rtl"] .quote-author{
+      font-family: "Amiri", serif;
+    font-weight: 600;
+    font-style: normal;
+      font-size: 1.8rem;
+    }
+
+  
+    body[dir="rtl"] .quote-text{
+      font-family: "Lateef", serif;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 2rem;
+      text-align: center;
+    }
+  }
+  
+          /* ----------------------------------------ipad pro */
+          @media (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait)
+{
+          .honor-quotes {
+              flex-direction: column !important;
+              text-align: center;
+            }
+          
+            body[dir="ltr"] .quote-text {
+              font-size: 1.8rem;
+              text-align: center;
+
+            }
+          
+            body[dir="ltr"] .quote-mark {
+              font-size: 4rem;
+            }
+
+            body[dir="ltr"] .quote-author{
+              font-size:2.6rem;
+            }
+            body[dir="rtl"] .quote-author{
+              font-family: "Amiri", serif;
+            font-weight: 600;
+            font-style: normal;
+              font-size: 1.8rem;
+            }
+        
+          
+            body[dir="rtl"] .quote-text{
+              font-family: "Lateef", serif;
+              font-weight: 300;
+              font-style: normal;
+              font-size: 2.4rem;
+              text-align: center;
+            }
+
+          }
